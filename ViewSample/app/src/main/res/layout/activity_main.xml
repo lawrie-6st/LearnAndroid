@@ -70,6 +70,20 @@
             android:text="@string/rb_female">
         </RadioButton>
     </RadioGroup>
+    <Spinner
+        android:id="@+id/spCurryList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:entries="@array/sp_currylist"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:entries="@array/lv_cocktail"/>
 
     <Button
         android:id="@+id/button"
