@@ -43,8 +43,33 @@
             android:layout_height="wrap_content"
             android:background="#ffffff"
             android:text="@string/cb_food"/>
-
     </LinearLayout>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#df7401"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+        <RadioButton
+            android:id="@+id/rbmale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#ffffff"
+            android:text="@string/rb_male">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:text="@string/rb_female">
+        </RadioButton>
+    </RadioGroup>
 
     <Button
         android:id="@+id/button"
