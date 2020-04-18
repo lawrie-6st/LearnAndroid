@@ -2,9 +2,9 @@ package com.example.intentsample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.TestLooperManager
 import android.view.View
 import android.widget.TextView
+
 
 class MenuThanksActivity : AppCompatActivity() {
 
